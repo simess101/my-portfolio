@@ -1,8 +1,8 @@
-// src/pages/QuickDraw.jsx
+// src/pages/TextEditorInC.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const QuickDraw = () => {
+const TextEditorInC = () => {
   return (
     <motion.section
       className="container mx-auto px-6 py-16 bg-white dark:bg-dark-background transition-colors duration-300"
@@ -11,24 +11,24 @@ const QuickDraw = () => {
       transition={{ duration: 0.8 }}
     >
       <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-gray-900 dark:text-gray-100 transition-colors duration-300">
-        QuickDraw
+        Text Editor in C
       </h2>
       <img
-        src="/assets/quickdraw.png"
-        alt="QuickDraw Game"
+        src="/assets/text-edit.png"
+        alt="Text Editor in C"
         className="w-full h-auto mb-6 rounded shadow-md"
       />
       <p className="text-lg leading-relaxed mb-4 text-gray-700 dark:text-gray-300 transition-colors duration-300">
-        Created a 2D reaction-based game featuring a red panda samurai, where players compete against an AI opponent by reacting to on-screen cues. Designed dynamic AI response times to adjust to player skill, enhancing difficulty and engagement.
+        Developed a text editor in C with functionality similar to VIM, including file saving, viewing, searching, and editing features. Implemented efficient data structures and file I/O handling for optimal text manipulation.
       </p>
       <p className="text-lg leading-relaxed mb-4 text-gray-700 dark:text-gray-300 transition-colors duration-300">
-        <strong>Challenges & Learnings:</strong> Balancing AI difficulty and ensuring smooth gameplay taught me about game design principles and optimizing performance.
+        <strong>Challenges & Learnings:</strong> Debugging tricky edge cases and refining search capabilities taught me the importance of attention to detail and efficient algorithm design.
       </p>
       <p className="text-lg leading-relaxed mb-4 text-gray-700 dark:text-gray-300 transition-colors duration-300">
-        <strong>Technologies Used:</strong> JavaScript, HTML5 Canvas, CSS3, AI Algorithms
+        <strong>Technologies Used:</strong> C, Data Structures, File I/O, Command-Line Interface
       </p>
       <a
-        href="https://github.com/simess101/QuickDraw" // Replace with your actual GitHub repository
+        href="https://github.com/simess101/Text-Editor-In-C" // Replace with your actual GitHub repository
         target="_blank"
         rel="noopener noreferrer"
         className="text-primary dark:text-secondary font-semibold hover:underline transition-colors duration-300"
@@ -39,4 +39,4 @@ const QuickDraw = () => {
   );
 };
 
-export default QuickDraw;
+export default TextEditorInC;
