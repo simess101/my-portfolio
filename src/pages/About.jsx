@@ -25,7 +25,7 @@ const About = () => {
         </p>
         <p className="text-lg leading-relaxed mb-6 text-gray-700 dark:text-gray-300 transition-colors duration-300">
           During my time at Virginia Commonwealth University, I’ve tackled a range of projects—from
-          creating a Notion-like text editor in C to developing dynamic Magic: The Gathering card
+          creating a Vim-like text editor in C to developing dynamic Magic: The Gathering card
           databases with PHP. But behind every line of code, there’s a personal philosophy: good
           technology should feel natural, serve people’s needs, and bring communities together. That’s
           why I value empathy, humility, and collaboration—whether I’m guiding my climbing club’s
