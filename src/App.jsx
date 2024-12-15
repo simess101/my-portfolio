@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './pages/Home';
@@ -13,7 +13,7 @@ import QuickDraw from './pages/QuickDraw';
 import GoGameAI from './pages/GoGameAI';
 import MagicTheGatheringDatabase from './pages/MagicTheGatheringDatabase';
 // Import other project detail pages as needed
-
+ 
 const App = () => {
   return (
     <Router>
@@ -48,5 +48,5 @@ const App = () => {
     </Router>
   );
 };
-
+ 
 export default App;
