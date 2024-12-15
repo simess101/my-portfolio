@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://simess.github.io/my-portfolio/",
+  "homepage": "https://simess101.github.io/my-portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
