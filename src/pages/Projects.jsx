@@ -9,7 +9,7 @@ const projects = [
     id: 1,
     title: 'Text Editor in C',
     description: 'Developed a text editor in C with functionality similar to VIM, including file saving, viewing, searching, and editing features. Implemented efficient data structures and file I/O handling for optimal text manipulation.',
-    image: '/assets/text-edit.png',
+    image: '../../public/assets/text-edit.png',
     link: '/projects/text-editor-in-c',
   },
   {
