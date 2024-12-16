@@ -8,6 +8,7 @@ import quickdrawImage from '../../../public/assets/quickdraw.png';
 import goGameAIImage from '../../../public/assets/go-game-ai.png';
 import magicCardDBImage from '../../../public/assets/magic-card-db.png';
 import notionCloneImage from '../../../public/assets/notion-clone.png';
+import textEditImage from '../../../public/assets/text-edit.png';
 // Import other images as needed
 
 const ProjectCard = ({ project }) => {
@@ -25,6 +26,9 @@ const ProjectCard = ({ project }) => {
       break;
     case 'notion-clone':
       projectImage = notionCloneImage;
+      break;
+    case 'text-edit':
+      projectImage = textEditImage;
       break;
     // Add more cases as needed
     default:

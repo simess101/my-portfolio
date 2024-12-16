@@ -6,35 +6,35 @@ import { motion } from 'framer-motion';
 // Project Data
 const projects = [
   {
-    id: 1,
+    id: 'text-edit',
     title: 'Text Editor in C',
     description: 'Developed a text editor in C with functionality similar to VIM, including file saving, viewing, searching, and editing features. Implemented efficient data structures and file I/O handling for optimal text manipulation.',
     image: '../../../public/assets/text-edit.png',
     link: '/projects/text-editor-in-c',
   },
   {
-    id: 2,
+    id: 'quickdraw',
     title: 'QuickDraw',
     description: 'Created a 2D reaction-based game featuring a red panda samurai, where players compete against an AI opponent by reacting to on-screen cues. Designed dynamic AI response times to adjust to player skill, enhancing difficulty and engagement.',
     image: '../../../public/assets/quickdraw.png',
     link: '/projects/quickdraw',
   },
   {
-    id: 3,
+    id: 'go-game-ai',
     title: 'Go Game AI',
     description: 'Developed an AI-powered Go board game from scratch, incorporating rules, gameplay mechanics, and a teaching mode to help players improve. Implemented a machine learning model capable of competing against human players, providing feedback to enhance player strategy and skill. Demonstrated expertise in game design, machine learning, and creating intuitive user interfaces.',
     image: '../../../public/assets/go-game-ai.png',
     link: '/projects/go-game-ai',
   },
   {
-    id: 4,
+    id: 'magic-card-db',
     title: 'Magic the Gathering Database and Website',
     description: 'Developed a dynamic Magic: The Gathering database and website using PHP and phpMyAdmin, enabling efficient storage, retrieval, and management of card data. Implemented a user-friendly web interface for card searches and deck building, utilizing PHP for backend logic and SQL for database queries.',
     image: '../../../public/assets/magic-card-db.png',
     link: '/projects/magic-the-gathering-database',
   },
   {
-    id: 5,
+    id: 'notion-clone',
     title: 'Notion Clone',
     description: 'Built a Notion-like application with rich text editing, note organization, and real-time collaboration features. Utilized React for the frontend and Node.js with WebSocket for backend real-time functionalities.',
     image: '../../../public/assets/notion-clone.png',
