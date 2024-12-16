@@ -13,7 +13,7 @@ const ContactPage = () => {
       <div className="max-w-md mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center text-gray-900 dark:text-gray-100 transition-colors duration-300">Contact Me</h2>
         <form
-          action="https://formspree.io/f/mwkaylln" // Replace with your Formspree endpoint or your own backend
+          action="https://formspree.io/f/mbljvoaz" // Replace with your Formspree endpoint or your own backend
           method="POST"
           className="bg-white dark:bg-gray-700 shadow-md rounded px-8 pt-6 pb-8 mb-4 transition-colors duration-300"
         >
@@ -65,9 +65,6 @@ const ContactPage = () => {
             </button>
           </div>
         </form>
-        <p className="text-center text-gray-600 dark:text-gray-300 text-xs">
-          &copy; {new Date().getFullYear()} Shane Simes. All rights reserved.
-        </p>
       </div>
     </motion.section>
   );
