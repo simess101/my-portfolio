@@ -14,7 +14,7 @@ const QuickDraw = () => {
         QuickDraw
       </h2>
       <img
-        src="/assets/quickdraw.png"
+        src="../../public/assets/quickdraw.png"
         alt="QuickDraw Game"
         className="w-full h-auto mb-6 rounded shadow-md"
       />

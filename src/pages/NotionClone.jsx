@@ -14,7 +14,7 @@ const NotionClone = () => {
         Notion Clone
       </h2>
       <img
-        src="/assets/notion-clone.png"
+        src="../../../public/assets/notion-clone.png"
         alt="Notion Clone"
         className="w-full h-auto mb-6 rounded shadow-md"
       />

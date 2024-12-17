@@ -14,7 +14,7 @@ const TextEditorInC = () => {
         Text Editor in C
       </h2>
       <img
-        src="/assets/text-edit.png"
+        src="../../public/assets/text-edit.png"
         alt="Text Editor in C"
         className="w-full h-auto mb-6 rounded shadow-md"
       />
@@ -28,7 +28,7 @@ const TextEditorInC = () => {
         <strong>Technologies Used:</strong> C, Data Structures, File I/O, Command-Line Interface
       </p>
       <a
-        href="https://github.com/simess101/Text-Editor-In-C" // Replace with your actual GitHub repository
+        href="https://github.com/simess101/text-editor-in-c" // Replace with your actual GitHub repository
         target="_blank"
         rel="noopener noreferrer"
         className="text-primary dark:text-secondary font-semibold hover:underline transition-colors duration-300"

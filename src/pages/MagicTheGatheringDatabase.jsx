@@ -14,7 +14,7 @@ const MagicTheGatheringDatabase = () => {
         Magic the Gathering Database and Website
       </h2>
       <img
-        src="/assets/magic-card-db.png"
+        src="../../public/assets/magic-card-db.png"
         alt="Magic the Gathering Database"
         className="w-full h-auto mb-6 rounded shadow-md"
       />

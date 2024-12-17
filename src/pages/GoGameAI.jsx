@@ -2,6 +2,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+// Import the image from src/assets/
+import goGameAIImage from '../../public/assets/go-game-ai.png'; // Adjust the path based on your directory structure
+
 const GoGameAI = () => {
   return (
     <motion.section
@@ -10,14 +13,19 @@ const GoGameAI = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
     >
-      <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+      <h2 className="text-3xl sm:text-4xl font-bold mb-8 text-center text-gray-900 dark:text-gray-100 transition-colors duration-300">
         Go Game AI
       </h2>
-      <img
-        src="/assets/go-game-ai.png"
-        alt="Go Game AI"
-        className="w-full h-auto mb-6 rounded shadow-md"
-      />
+      
+      <div className="flex justify-center mb-6">
+        <img
+          src={goGameAIImage}
+          alt="Go Game AI"
+          className="w-full h-auto sm:w-3/4 md:w-2/3 lg:w-1/2 rounded shadow-md"
+          loading="lazy"
+        />
+      </div>
+      
       <p className="text-lg leading-relaxed mb-4 text-gray-700 dark:text-gray-300 transition-colors duration-300">
         Developed an AI-powered Go board game from scratch, incorporating rules, gameplay mechanics, and a teaching mode to help players improve. Implemented a machine learning model capable of competing against human players, providing feedback to enhance player strategy and skill. Demonstrated expertise in game design, machine learning, and creating intuitive user interfaces.
       </p>
