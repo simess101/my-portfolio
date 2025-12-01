@@ -18,7 +18,19 @@ const projects = [
       "Custom Volatility 3 plugin that recovers user activity from Steam process memory in Windows 11, including chats and recent games, to support digital-forensics investigations.",
     tags: ["Python", "Volatility 3", "Memory forensics"],
     links: {
-      github: "https://github.com/simess101", // TODO: replace with real repo
+      github: "https://github.com/simess101/SteamForensics-VolitalityPlugin",
+    },
+  },
+  {
+    title: "MLRF: Machine Learning for RF Spectrum Sensing",
+    role: "Capstone · RF Signal Classification",
+    period: "2024 - 2025",
+    description:
+      "A machine learning-based system for monitoring and classifying radio frequency (RF) signals using power spectral density features, supporting both live SDR data and recorded captures for US Navy signal analysis.",
+    tags: ["Python", "Jupyter", "ML", "RF", "Signal processing"],
+    links: {
+      github:
+        "https://github.com/simess101/MULT-25-607-ML-for-RF-Sprectrum-sensing",
     },
   },
   {
@@ -29,13 +41,13 @@ const projects = [
       "Pipeline that ingests open-source intelligence, normalizes entities, and visualizes relationships in Neo4j to surface leads and higher-order connections.",
     tags: ["Python", "Neo4j", "OSINT"],
     links: {
-      github: "https://github.com/simess101", // TODO
+      github: "https://github.com/simess101/OSINT-Lead-Generator-Network-Mapper",
     },
   },
   {
     title: "Emotional Plant Care Simulator (VR)",
     role: "VR · Generative UX Research",
-    period: "2025 – 2026",
+    period: "2025 - 2026",
     description:
       "VR experience that maps emotional check-ins to plant growth and motion, exploring calm, reflective self-tracking through generative plant metaphors.",
     tags: ["Unity", "VR", "LLM-assisted UX"],
@@ -44,12 +56,34 @@ const projects = [
   {
     title: "Go-Playing AI & Teaching Tool",
     role: "Personal ML Project",
-    period: "In progress",
+    period: "2024 - 2025",
     description:
       "From-scratch Go engine plus reinforcement-learning based AI that can both play and explain moves to help humans improve after each game.",
     tags: ["Python", "RL", "Game AI"],
     links: {
-      github: "https://github.com/simess101", // TODO
+      github: "https://github.com/simess101/go_game",
+    },
+  },
+  {
+    title: "MTG Card Database",
+    role: "Web App · Magic: The Gathering",
+    period: "2024 - 2025",
+    description:
+      "Web application for exploring and organizing Magic: The Gathering cards, integrating external APIs to search, filter, and inspect card details for deck building and collection management.",
+    tags: ["React", "Web app", "MTG"],
+    links: {
+      github: "https://github.com/simess101/MTG-DATABASE",
+    },
+  },
+  {
+    title: "PDF Reader",
+    role: "Rust · Desktop Tool (WIP)",
+    period: "In progress",
+    description:
+      "Work-in-progress PDF reader written in Rust, focused on learning low-level PDF parsing by manually handling objects, streams, and rendering via a custom UI.",
+    tags: ["Rust", "PDF", "Desktop"],
+    links: {
+      github: "https://github.com/simess101/PDF-Reader",
     },
   },
 ];
@@ -58,14 +92,14 @@ const experience = [
   {
     title: "VDC Software Developer Intern",
     org: "Atlantic Constructors Inc.",
-    period: "May 2024 – Present",
+    period: "May 2024 - Present",
     description:
       "Building C# Revit add-ins to automate fabrication workflows (duct checks, parameter pushers, hanger tools) and streamline coordination across teams.",
   },
   {
     title: "B.S. Computer Science, Cybersecurity Focus",
     org: "Virginia Commonwealth University",
-    period: "Aug 2021 – Dec 2025 (expected)",
+    period: "Aug 2021 - Dec 2025 (expected)",
     description:
       "Coursework in digital forensics, ethical hacking, memory & malware forensics, and systems programming. Blending security engineering with applied research.",
   },
@@ -249,7 +283,7 @@ export default function App() {
               complex systems feel approachable.
             </p>
             <p className="mt-3 text-sm leading-relaxed text-slate-600 dark:text-slate-300">
-              Recently, that’s meant
+              Recently, that's meant
               <span className="font-medium">
                 {" "}
                 Volatility plugins, OSINT graph pipelines, Revit add-ins,
@@ -271,6 +305,14 @@ export default function App() {
                 className="inline-flex items-center rounded-full border border-slate-300 px-4 py-2 text-xs font-medium text-slate-700 transition hover:bg-slate-100 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"
               >
                 GitHub
+              </a>
+              <a
+                href="https://www.linkedin.com/in/simess/"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center rounded-full border border-slate-300 px-4 py-2 text-xs font-medium text-slate-700 transition hover:bg-slate-100 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"
+              >
+                LinkedIn
               </a>
             </div>
           </div>
@@ -367,7 +409,7 @@ export default function App() {
               href="mailto:simesse@vcu.edu"
               className="inline-flex items-center rounded-full bg-sky-600 px-4 py-2 text-xs font-medium text-white shadow-sm transition hover:bg-sky-700"
             >
-              Email: simess@vcu.edu
+              Email: simesse@vcu.edu
             </a>
             <a
               href="https://github.com/simess101"
@@ -376,6 +418,14 @@ export default function App() {
               className="inline-flex items-center rounded-full border border-slate-300 px-4 py-2 text-xs font-medium text-slate-700 transition hover:bg-slate-100 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"
             >
               github.com/simess101
+            </a>
+            <a
+              href="https://www.linkedin.com/in/simess/"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center rounded-full border border-slate-300 px-4 py-2 text-xs font-medium text-slate-700 transition hover:bg-slate-100 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"
+            >
+              linkedin.com/in/simess
             </a>
           </div>
         </section>
