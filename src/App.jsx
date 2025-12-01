@@ -35,7 +35,7 @@ const projects = [
   {
     title: "Emotional Plant Care Simulator (VR)",
     role: "VR · Generative UX Research",
-    period: "2024 – 2025",
+    period: "2025 – 2026",
     description:
       "VR experience that maps emotional check-ins to plant growth and motion, exploring calm, reflective self-tracking through generative plant metaphors.",
     tags: ["Unity", "VR", "LLM-assisted UX"],

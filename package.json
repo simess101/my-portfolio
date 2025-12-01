@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist",
-    "lint": "eslint . --ext .js,.jsx"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^10.12.16",
