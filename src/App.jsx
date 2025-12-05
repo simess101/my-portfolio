@@ -36,7 +36,7 @@ const projects = [
   {
     title: "OSINT Lead Generator & Network Mapper",
     role: "Neo4j · Graph OSINT",
-    period: "2024",
+    period: "2025",
     description:
       "Pipeline that ingests open-source intelligence, normalizes entities, and visualizes relationships in Neo4j to surface leads and higher-order connections.",
     tags: ["Python", "Neo4j", "OSINT"],
