@@ -90,7 +90,7 @@ const projects = [
 
 const experience = [
   {
-    title: "VDC Software Developer Intern",
+    title: "VDC Software Developer",
     org: "Atlantic Constructors Inc.",
     period: "May 2024 - Present",
     description:
@@ -326,7 +326,7 @@ export default function App() {
                   Current role
                 </dt>
                 <dd className="font-medium">
-                  VDC Software Developer Intern @ ACI
+                  VDC Software Developer @ ACI
                 </dd>
               </div>
               <div>
