@@ -405,7 +405,7 @@ export default function App() {
           </p>
           <div className="flex flex-wrap gap-3 text-sm">
             <a
-              href="mailto:simesse@vcu.edu"
+              href="mailto:simess@vcu.edu"
               className="inline-flex items-center rounded-full bg-sky-600 px-4 py-2 text-xs font-medium text-white shadow-sm transition hover:bg-sky-700"
             >
               Email: simesse@vcu.edu
