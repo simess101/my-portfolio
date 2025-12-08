@@ -247,9 +247,8 @@ export default function App() {
             >
               <span className="h-5 w-9 rounded-full bg-slate-200 p-0.5 dark:bg-slate-700">
                 <span
-                  className={`block h-4 w-4 rounded-full bg-white shadow transition-transform ${
-                    theme === "dark" ? "translate-x-4" : ""
-                  }`}
+                  className={`block h-4 w-4 rounded-full bg-white shadow transition-transform ${theme === "dark" ? "translate-x-4" : ""
+                    }`}
                 />
               </span>
               <span>{theme === "dark" ? "Dark" : "Light"} mode</span>
@@ -293,7 +292,7 @@ export default function App() {
 
             <div className="mt-6 flex flex-wrap gap-3">
               <a
-                href="mailto:simesse@vcu.edu"
+                href="mailto:simess@vcu.edu"
                 className="inline-flex items-center rounded-full bg-sky-600 px-4 py-2 text-xs font-medium text-white shadow-sm transition hover:bg-sky-700"
               >
                 Contact me
