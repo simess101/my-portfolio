@@ -408,7 +408,7 @@ export default function App() {
               href="mailto:simess@vcu.edu"
               className="inline-flex items-center rounded-full bg-sky-600 px-4 py-2 text-xs font-medium text-white shadow-sm transition hover:bg-sky-700"
             >
-              Email: simesse@vcu.edu
+              Email: simess@vcu.edu
             </a>
             <a
               href="https://github.com/simess101"
